@@ -103,9 +103,8 @@ function TabButton({ active, onClick, children }) {
     <button
       type="button"
       onClick={onClick}
-      className={`relative px-4 py-3 font-display text-sm uppercase tracking-wide transition-colors ${
-        active ? "text-volt" : "text-muted hover:text-paper"
-      }`}
+      className={`relative px-4 py-3 font-display text-sm uppercase tracking-wide transition-colors ${active ? "text-volt" : "text-muted hover:text-paper"
+        }`}
     >
       {children}
       {active && (
@@ -138,9 +137,8 @@ function EmptyState() {
 function PlanRow({ workout, showDone, onRemove, onMarkDone }) {
   return (
     <li
-      className={`flex flex-col gap-4 rounded-xl2 border border-line bg-surface p-4 sm:flex-row sm:items-center ${
-        workout.done ? "opacity-60" : ""
-      }`}
+      className={`flex flex-col gap-4 rounded-xl2 border border-line bg-surface p-4 sm:flex-row sm:items-center ${workout.done ? "opacity-60" : ""
+        }`}
     >
       <div className="relative h-20 w-20 flex-none overflow-hidden rounded-lg bg-surface2 sm:h-16 sm:w-16">
         <Image src={workout.image} alt={workout.name} fill sizes="80px" className="object-cover" />
@@ -148,9 +146,8 @@ function PlanRow({ workout, showDone, onRemove, onMarkDone }) {
 
       <div className="min-w-0 flex-1">
         <h3
-          className={`font-display text-base font-semibold uppercase tracking-wide text-paper ${
-            workout.done ? "line-through" : ""
-          }`}
+          className={`font-display text-base font-semibold uppercase tracking-wide text-paper ${workout.done ? "line-through" : ""
+            }`}
         >
           {workout.name}
         </h3>
