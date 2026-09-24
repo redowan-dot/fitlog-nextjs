@@ -63,6 +63,7 @@ export function PlanProvider({ children }) {
     }, 2800);
   }
 
+
   function addToday(workout) {
     let outcome = "added";
     setToday((prev) => {
