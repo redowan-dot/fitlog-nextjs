@@ -58,7 +58,7 @@ lib/api.js              FitLog API helpers
 
 ## 📬 Deployment
 
-Deployed on Vercel / Netlify / Cloudflare Pages — build command `next build`, output handled automatically for Next.js.
+Deployed on Vercel  — build command `next build`, output handled automatically for Next.js.
 
 ---
 
